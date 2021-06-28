@@ -1,4 +1,16 @@
+.container-fluid{
+    padding: 3% 15%;
+}
 
+#apple-logo{
+    width: 15px;
+    margin: 5px;
+
+}
+
+.btn{
+    text-align: center;
+}
 
 #logo{
     color: aliceblue;
