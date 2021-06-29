@@ -1,5 +1,48 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1,h2,h2,h4,h5,h6{
+    font-family: "Montserrat-Bold";
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.big-heading{
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 .container-fluid{
-    padding: 3% 15%;
+    padding: 7% 15% ;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.coloured-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section{
+    background-color: white;
 }
 
 #apple-logo{
@@ -8,12 +51,9 @@
 
 }
 
-body{
-    font-family: 'Montserrat';
-}
 
 .btn{
-    text-align: center;
+      
 }
 
 #logo{
@@ -22,19 +62,13 @@ body{
 }
 
 #title{
-    background-color: #ff4c68;
+    text-align: left;
 }
 
-#title h1{
-    color: white;
+#title .container-fluid{
+     padding: 3% 15% 7%;
 }
 
-h1{
-    font-family: 'Montserrat-Black';
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 100;
-}
 
 .navbar{
     padding-bottom: 4rem;
@@ -58,18 +92,18 @@ h1{
     width: 60%;
     transform: rotate(15deg);
     margin: 30px auto;
+    position: absolute;
+    right: 30%;
 }
 
-h3{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif  ;
-}
 
 #features{
-    padding: 7% 15% ;
+    position: relative;
+    
 }
 
 .feature-box{
-    text-align: center;
+     
     padding: 3%;
 }
 
@@ -82,17 +116,17 @@ h3{
      color: #ff4c68;
 }
 
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 #testimonials{
-    text-align: center;
+      
     background-color: #ef8172;
     color: white;
 }
 
-h2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
-}
 
 .testimonial-img{
     width: 10%;
@@ -101,9 +135,8 @@ h2{
 }
 
 #press{
-    background-color: #ef8172;
-    text-align: center;
     padding-bottom: 5%;
+    background-color: #ef8172;
 }
 
 .press-logo{
@@ -112,15 +145,46 @@ h2{
 }
 
 .carousel-item{
-    padding: 7% 15%;
+    
 }
 
 #pricing{
-    text-align: center;
+      
     margin: 5%;
     
 }
 
 .pricing-col{
     padding: 3% 2%;
+}
+
+@media(max-width:1028px) {
+
+    #title{
+          
+    }
+
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+#cta{
+      
+    line-height: 1.5;
+
+    
+}
+
+#cta h3{
+    font-family: "Monstserrat-Black";
+}
+
+#footer{
+}
+
+.footer-icon{
+    margin: 20px 10px;
+    width: 20%;
 }
