@@ -83,7 +83,6 @@ h3{
 }
 
 #testimonials{
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
     color: white;
@@ -112,4 +111,16 @@ h2{
     margin: 1% 2%;
 }
 
+.carousel-item{
+    padding: 7% 15%;
+}
 
+#pricing{
+    text-align: center;
+    margin: 5%;
+    
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
